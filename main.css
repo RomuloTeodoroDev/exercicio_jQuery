@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(224, 224, 237);
+    font-family: 'Dancing Script', cursive;
+    max-width: 600px;
+    width: 100%;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    font-size: 50px;   
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+#nome-tarefa {
+    background-color: #fff;
+    text-align: center;
+    width: 300px;
+    border: none;
+    border-radius: 8px;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 16px;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: #d8d5de;
+}
+
+li{
+    display: flex;
+    justify-content: center;    
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.checked{
+    text-decoration: line-through;
+}
